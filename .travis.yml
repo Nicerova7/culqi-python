@@ -9,6 +9,9 @@ install:
   - pip install tox-travis
 script:
   - tox
+  - tox -e black
+  - tox -e flake8
+  - tox -e pydocstyle
 matrix:
   allow_failures:
     - python: '3.7'
