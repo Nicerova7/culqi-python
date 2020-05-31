@@ -9,7 +9,7 @@ install:
   - pip install tox-travis
 script:
   - tox
-  - print($TRAVIS_PYTHON_VERSION)
+  - print('ok')
 matrix:
   allow_failures:
     - python: '3.7'
