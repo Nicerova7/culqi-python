@@ -9,7 +9,7 @@ install:
   - pip install tox-travis
 script:
   - tox
-  - if [[ "$TRAVIS_PYTHON_VERSION" = 3.8 ]]; then tox -e black; tox -e flake8; tox -e pydocstyle
+  - if [ "$TRAVIS_PYTHON_VERSION" == "3.8" ]; then tox -e black;
 matrix:
   allow_failures:
     - python: '3.7'
