@@ -2,7 +2,7 @@
 
 # Culqi Python
 
-[![Build Status](https://travis-ci.org/culqi/culqi-python.svg?branch=master)](https://travis-ci.org/culqi/culqi-python)
+[![Build Status](https://travis-ci.com/Nicerova7/culqi-python.svg?branch=develop)](https://travis-ci.org/Nicerova7/culqi-python)
 ![](https://img.shields.io/pypi/pyversions/Culqi)
 ![](https://img.shields.io/pypi/l/culqi)
 ![](https://img.shields.io/pypi/v/culqi)
