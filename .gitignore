@@ -12,4 +12,5 @@ coverage.*
 legacy
 build
 dist
+tests/cassettes/
 __pycache__
